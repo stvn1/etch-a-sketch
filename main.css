@@ -1,0 +1,41 @@
+#container{
+           
+            
+
+}
+
+.grid{
+    display: grid;
+    background-color: #2196F3;
+    border : 1px red solid;
+    display: grid; 
+    grid-template-columns: repeat(100, 1fr);
+ 
+}
+.title{
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+.description{
+    text-align: center;
+}
+
+
+.gridItem {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    height: 10px;
+    
+}
+.selected{
+    border: 1px solid black;
+    height: 10px;
+    background-color: yellow;
+
+}
+.buttonClear{
+    text-align: center;
+}
+.buttonResize{
+    text-align: center;
+}
